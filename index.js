@@ -1,3 +1,5 @@
+const express = require('express');
+const app = express();
 const Discord = require('discord.js');
 const { reset } = require('nodemon');
 const client = new Discord.Client();
@@ -5,6 +7,7 @@ require('dotenv').config();
 
 const oldchannelid = '761303460460625984';
 const newchannelid = '796454712353226783';
+const port = process.env.PORT || 4000;
 
 client.on('ready', () => {
     console.log("Bot is ready!");
@@ -110,3 +113,4 @@ async function resetUsers(msg) {
 
 
 client.login(process.env.TOKEN);
+app.listen(port, () => console.log('Server is Running'));
