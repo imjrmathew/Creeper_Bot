@@ -41,6 +41,9 @@ client.on('message', msg => {
     else if (msg.content === '/reset') {
         resetUsers(msg);
     }
+    else if (msg.content === '/start') {
+        msg.reply("CREEPER is starting..🤖")
+    }
 });
 
 
