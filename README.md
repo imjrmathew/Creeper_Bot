@@ -1,5 +1,5 @@
 # CREEPER BOT for Discord
-**A simple Discord Bot developed using [Node JS](https://nodejs.org/en/):smile:**
+**A simple Discord Bot developed using [Node JS](https://nodejs.org/en/) for Among Us game:smile:**
 
 &nbsp;
 [![instagram](http://img.shields.io/website?label=iamdonmathew&color=green&?&logo=instagram&down_message=follow&up_message=follow&logoColor=white&style=for-the-badge&url=https://www.instagram.com/iamdonmathew)](https://www.instagram.com/iamdonmathew/)
